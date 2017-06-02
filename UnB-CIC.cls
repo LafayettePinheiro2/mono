@@ -138,13 +138,10 @@
 %%
 
 
+%\RequirePackage[brazil,american]{babel}% Idiomas
 \RequirePackage[brazil]{babel}% Idiomas
-
-%ORIGINAL
-%\RequirePackage[fixlanguage]{babelbib}%  Idioma das referências
-
-%TESTE FIX 
-\RequirePackage[fixlanguage]{babel}%  Idioma das referências 
+\RequirePackage[fixlanguage]{babelbib}%  Idioma das referências
+\selectbiblanguage{brazil}
 
 \RequirePackage[utf8]{inputenc}%         Arquivos na codificação UTF-8
 \RequirePackage[T1]{fontenc}%            Habilita busca com caracteres latinos
@@ -301,11 +298,10 @@
 \expandafter\let\expandafter\@bibliography\csname bibliography\endcsname%
 
 
-%FIXED
+%configura natbib
 %fix1\bibpunct{(}{)}{;}{a}{,}{,}
-\usepackage[round]{natbib} %fix2
-\bibliographystyle{humannat} %fix2 ---> testar outros tipos de referências e de formas citaçaõ
-
+\usepackage[round]{natbib} 
+\bibliographystyle{dinat} 
 
 \renewcommand{\bibliography}[1]{%
 	%renomeia a seção após influência maligna do Babel
@@ -911,9 +907,9 @@
 		\@IncluirSecao{agradecimentos}%
 	\fi%
 	\@IncluirSecao{resumo}%
-	\selectlanguage{american}%
+	%\selectlanguage{american}%
 	\@IncluirSecao{abstract}%
-	\selectlanguage{brazil}%
+	%\selectlanguage{brazil}%
     \selectbiblanguage{brazil}%
 	\@erroSeNaoExiste{bibliografia.bib}%
 
@@ -928,9 +924,6 @@
 \newcommand{\@conteudoPosTextual}{%
 	\@PosTextualNaoInclusofalse%
     \postextual%
-	% FIXED
-	%\bibliographystyle{babunsrt}%
-	%\bibliographystyle{plainnat} -- fix 2 - comentei aqui - se nao funcionar no outro codigo, mudar este
     \bibliography{bibliografia}%
 }%
 
