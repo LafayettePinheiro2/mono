@@ -1,0 +1,46 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cabral et~al.(2008)Cabral, Nunes, and Bigorna]{cabral08}
+Maria~Izabel Cabral, Daltro~José Nunes, and Roberto da~Silva Bigorna.
+\newblock \emph{A trajetória dos cursos de graduação da área de
+  computação e informática: 1969-2006}.
+\newblock SBC, Rio de Janeiro, 2008.
+
+\bibitem[Castro(2013)]{castro2013b}
+Cilmar Castro.
+\newblock Licenciatura em computacao: ampliando caminhos.
+\newblock \emph{In: 2° Seminario Nacional de Inclusao Digital – SENID. Passo
+  Fundo, RS}, 13\penalty0 (148), 2013.
+
+\bibitem[Castro and Vilarim(2013)]{castro2013a}
+Cilmar Castro and Gilvan de~O. Vilarim.
+\newblock Licenciatura em computacao no cenario nacional: embates,
+  institucionalizacao e o nascimento de um novo curso.
+\newblock \emph{Revista Espaco Academico}, 13\penalty0 (148), 2013.
+
+\bibitem[Gatti(1997)]{gatti97}
+Bernadete~A. Gatti.
+\newblock \emph{Formação de professores e carreira: problemas e movimentos de
+  renovação}.
+\newblock Autores associados, Campinas - SP, 1997.
+
+\bibitem[Matos(2013)]{matos2013a}
+Ecivaldo de~S. Matos.
+\newblock Identidade profissional docente e o papel da interdisciplinaridade no
+  currículo de licenciatura em computação.
+\newblock \emph{Revista Espaço Acadêmico - UEM, Maringá-PR}, 13\penalty0
+  (148), Setembro 2013.
+
+\bibitem[Quim(2013)]{quim2013}
+Osmar Quim.
+\newblock Formação de professores de informática: Desafios da licenciatura
+  em computação.
+\newblock \emph{5º Congresso Internacional de Educação, Pesquisa e Gestão},
+  Setembro 2013.
+
+\end{thebibliography}
